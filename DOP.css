@@ -1,0 +1,306 @@
+body{
+    background-color: black;
+    
+    color: white;
+    
+}
+div.wlm{
+ width: 100%;
+ height: 85vh;
+ background-color: rgb(0, 0, 0);
+ background-image: url("https://wallpaperaccess.com/full/3688577.jpg");
+ transition-duration: 80s;
+ background-repeat: no-repeat;
+ background-attachment: scroll;
+ background-size: cover;
+ background-position: center;
+ padding: 0%;
+ position: relative;
+
+ animation-name: animate ;
+ animation-direction: alternate-reverse;
+ animation-duration: 20s;
+ animation-fill-mode: forwards;   
+ animation-iteration-count: infinite;
+ animation-play-state: running;
+ animation-timing-function:ease-in;
+}
+@keyframes animate{
+
+   0%{
+      background-image: url(https://images.unsplash.com/photo-1528360983277-13d401cdc186?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+   }
+   20%{
+       background-image: url(https://wallpaperaccess.com/full/3688625.jpg);
+   }
+   40%{
+       background-image: url(https://wallpaperaccess.com/full/1130705.jpg);
+   }
+}
+nav{
+   display: flex;
+   width: 100%;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 5px 0;
+}
+
+img.haha{
+   width: 80px;
+   height: 80px;
+}
+nav ul{
+   flex: 1;
+   text-align: right;
+   padding-right: 30px;
+}
+nav ul li{
+   display: inline-block;
+   list-style: none;
+   margin: 10px 30px;
+}
+nav ul li a{
+   color: #fff;
+   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+   text-decoration: none;
+   position: relative;
+}
+nav ul li a::after
+{
+   content: '';
+   width: 0;
+   height: 3px;
+   position: absolute;
+   bottom: -5px;
+   left: 50%;
+   transform: translate(-50%);
+   background: rgb(207, 13, 13);
+   transition: width 0.3s;
+}
+nav ul li a:hover::after{
+   width: 80%;
+}
+.welcome{
+   position: absolute;
+   top: 40%;
+   padding-left: 8%;
+   display: inline;
+}
+.welcome h1{
+   display: inline;
+   font-size: 120px;
+   font-family: sans-serif;
+   line-height: 120px;
+   margin-left: -10px;
+   color: transparent;
+   -webkit-text-stroke: 2px rgb(0, 0, 0);
+   background: url("back.png");
+   -webkit-background-clip: text;
+   background-clip: text;
+   background-position:0 0;
+   animation: back 40s linear infinite;
+   text-transform: uppercase;
+   position: relative;
+}
+@keyframes back{
+   100%{
+       background-position:4500px 0;  
+
+   }
+}
+button.lnk{
+   border: 0px;
+   border-radius: 50px;
+   background-color:rgba(0, 0, 0, 0.712);
+   color: rgb(0, 0, 0, 0.712);
+   width: 300px;
+   height:50px;
+   text-align: center;
+   left: 60%;
+   transform: translate(-50%);
+   cursor: pointer;
+   transition-duration: 0.3s;
+   position: absolute;
+   text-decoration: none;
+}
+button.lnk:hover{
+   width: 350px;
+   background-color: black;
+}
+
+h2{
+   
+   transition: transform 1s;
+}
+h2:hover{
+   transform:rotateX(360deg);
+}
+
+
+
+div.pad{
+   padding-left: 100px; padding-right: 100px;
+}
+div.onepiece {
+   background-image:linear-gradient(rgba(0,0,0,0.60),
+   rgba(0,0,0,0.60)), url("https://pbs.twimg.com/media/E6ecA24X0AMfUtU?format=jpg&name=medium");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   border: hidden;
+   border-radius: 15px;
+   padding:10px;
+}
+div.naruto{
+   background-color: rgb(0, 0, 0);
+   background-image:linear-gradient(rgba(0,0,0,0.60),
+   rgba(0,0,0,0.60)), url("https://i.pinimg.com/originals/f7/e9/cc/f7e9ccb69dd3d94dd7943c3695607629.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   border: hidden;
+   border-radius: 15px;
+   padding:10px;
+}
+div.deathnote{
+   background-color: rgb(0, 0, 0);
+   background-image:linear-gradient(rgba(0,0,0,0.70),
+   rgba(0,0,0,0.70)), url("deathnotebg.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   border: hidden;
+   border-radius: 15px;
+   padding:10px;
+}
+.border{
+   text-shadow: -0px 1px 0 rgb(253, 252, 252), 1px 1px 0 rgb(0, 0, 0), 
+   1px -1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(252, 252, 253);
+}
+abbr{
+   text-decoration: none;
+   cursor: pointer;
+}
+a.four:link, a.four:visited {
+   background-color:rgba(5, 5, 185, 0.925);
+   color: rgb(0, 2, 97);
+   padding: 10px 50px;
+   text-align: center;
+   text-decoration:none;
+   display: inline-block;
+}
+a.one{
+   color: rgb(218, 11, 11);
+   text-decoration: none;
+}
+
+button {
+   border: 2px solid;
+   border-radius: 50px;
+   background-color:rgba(0, 0, 0, 0.63);
+   color:  rgb(207, 13, 13);
+   width: 200px;
+   height: 50px;
+   transform: translate(-50%);
+   text-align: center;
+   cursor: pointer;
+   transition-duration: 0.5s;
+   position: absolute; 
+}
+button:hover{
+   width: 250px;
+   color: black;
+   background-color:  rgb(0, 0, 0);
+}
+
+
+.nav ul {
+   list-style: none; width: 100%; margin:6px 0px;
+    border-radius: 5px; padding: 0px; overflow:hidden ;
+    background: radial-gradient(49.95% 9735.63% at 50.05% 50%, #434343 0%, rgba(48, 48, 48, 0.89) 38.02%, rgba(39, 39, 39, 0.5) 85.94%, rgba(28, 28, 28, 0.44) 100%);
+
+
+}
+.nav li {
+   float: left;
+}
+.nav ul li a{
+   display:flex; color: white; text-align: center;
+   padding: 16px; 
+   text-decoration: none; width: 0%; 
+   transition: 0.7s; 
+   border: hidden;
+   border-radius: 0px 5px 5px 0px;
+}
+.nav ul li a:hover {
+   width: 70%;background-color: #000000;border:solid 1px;
+   border-color: rgb(68, 0, 0);
+}
+a.skull  {
+   color: rgb(252, 252, 252);
+   text-decoration: none;
+}
+img {
+   border: hidden;
+   border-radius: 15px;
+   align-items: left;
+}
+@media only screen and (max-width:900px){
+   img{
+       width: 50%;
+       height: 120%;
+       border-radius: 10px;
+   }
+   .welcome{
+       top: 20%;
+   }
+   .welcome h1{
+       font-size: 80px;
+       line-height: 80px;
+       background: url("https://photos.app.goo.gl/7zPuZnou3TsM6TgK8");
+   }
+   font {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: rgb(233, 233, 233);
+   }
+   div.pad{
+       padding: 10px;
+       
+   }
+   button{
+       padding: 20px;
+       width: 200px;
+   }
+   button.lnk{
+       left: 58%;
+       width: 150px;
+       padding: 20px;
+       right: 48%;
+   }
+   button.lnk:hover{
+       width: 200px;
+   }
+   div.onepiece {
+       background-color: rgb(0, 0, 0);
+       background-image:linear-gradient(rgba(0,0,0,0.40),
+       rgba(0,0,0,0.40)), url("https://i.pinimg.com/564x/88/89/06/888906ff1bf881baf1437491186535de.jpg");
+       padding: 0%;
+   }
+   div.naruto{
+       background-color: rgb(0, 0, 0);
+       background-image:linear-gradient(rgba(0,0,0,0.40),
+       rgba(0,0,0,0.40)), url("https://i.pinimg.com/564x/22/08/cf/2208cf729fbae651fbaf7cfcdb576eaa.jpg");
+   } 
+   div.deathnote{
+       background-color: rgb(0, 0, 0);
+       background-image:linear-gradient(rgba(0,0,0,0.70),
+       rgba(0,0,0,0.70)), url("");
+   }
+}
+div.fu{
+   background-color: rgba(0, 0, 0, 0.356);
+   background-size: cover;
+}
