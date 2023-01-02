@@ -143,7 +143,7 @@ div.pad{
 }
 div.onepiece {
    background-image:linear-gradient(rgba(0,0,0,0.60),
-   rgba(0,0,0,0.60)), url("https://pbs.twimg.com/media/E6ecA24X0AMfUtU?format=jpg&name=medium");
+   rgba(0,0,0,0.60)), url("Luffy.jpg");
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
@@ -255,12 +255,14 @@ img {
        border-radius: 10px;
    }
    .welcome{
-       top: 20%;
+       top: 46%;
+       height: 205px;
    }
    .welcome h1{
        font-size: 80px;
        line-height: 80px;
-       background: url("https://photos.app.goo.gl/7zPuZnou3TsM6TgK8");
+       
+       /* background: url("https://photos.app.goo.gl/7zPuZnou3TsM6TgK8"); */
    }
    font {
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -271,14 +273,14 @@ img {
        
    }
    button{
-       padding: 20px;
        width: 200px;
    }
    button.lnk{
-       left: 58%;
+      font-size: 12px;
+       left: 55%;
        width: 150px;
        padding: 20px;
-       right: 48%;
+       right: 45%;
    }
    button.lnk:hover{
        width: 200px;
